@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-//for directed graph t.c. o(v+e)
+//Cycle detection for directed graph using DFS t.c. o(v+e)
 
 
 void addedge(vector<int> adj[],int u,int v){
@@ -57,8 +57,5 @@ int main(){
     }else{
         cout<<"no"<<endl;
     }
-
-
-
     return 0;
 }

@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-//cycle detection in undirected graph
+//cycle detection in undirected graph using DFS
 
 void addedge(vector<int> adj[],int u,int v){
     adj[u].push_back(v);
